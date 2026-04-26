@@ -2,9 +2,29 @@
     import UILayout from "./UILayout.svelte";
 </script>
 
-<UILayout title="Hello, World!">
+<UILayout title="HabiDemo">
     <div class="card">
-        Hello, World!
+        <p>List 1</p>
+        <p>List 2</p>
+        <p>List 3</p>
+        <p>List 4</p>
+        <p>List 5</p>
+    </div>
+    
+    <div class="card">
+        <p>Water</p>
+    </div>
+
+    <div class="card">
+        <p>Condition</p>
+    </div>
+
+    <div class="card">
+        <p>Date</p>
+    </div>
+
+    <div class="card">
+        <p>Remind Later</p>
     </div>
 </UILayout>
 
